@@ -18,5 +18,13 @@
     <ClCompile Include="start.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="console_calc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console_calc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

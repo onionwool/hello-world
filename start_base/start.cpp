@@ -1,4 +1,5 @@
 #include <iostream>
+#include "console_calc.h"
 
 //using std::cout;
 //using std::cin;
@@ -11,12 +12,9 @@ int main()
 	cout << "Hello " << "World!" << endl; // 동일
 	cout << "Hello ";
 	cout << "World!" << endl; // 동일
-
-	int nVal = 0;
-
-	cout << "제곱으로 만들 값을 입력해주세요 : ";
-	cin >> nVal;
-	cout << nVal * nVal << endl;
+	
+	console_calc::console_plus(); // 두값 더하기
+	console_calc::console_square(); // 값 제곱하기
 
 	return 0;
 }
