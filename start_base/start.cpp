@@ -14,6 +14,7 @@ int main()
 	cout << "World!" << endl; // 동일
 	
 	console_calc::console_plus(); // 두값 더하기
+	console_calc::console_minus(); // 두값 차이 구하기
 	console_calc::console_square(); // 값 제곱하기
 
 	return 0;

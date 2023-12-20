@@ -22,3 +22,15 @@ void console_calc::console_plus()
 	cin >> mVal;
 	cout << "결과는 " << nVal + mVal << "입니다." << endl;
 }
+
+void console_calc::console_minus()
+{
+	int nVal = 0, mVal = 0;
+
+	cout << "차이를 구할 첫번째 값을 입력하세요 : ";
+	cin >> nVal;
+	cout << "차이를 구할 두번째 값을 입력하세요 : ";
+	cin >> mVal;
+	int result = nVal >= mVal ? nVal - mVal : mVal - nVal;
+	cout << "결과는 " << result << "입니다." << endl;
+}
